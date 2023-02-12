@@ -1,11 +1,11 @@
 import "../App.css"
-import logo from "../images/airbnb-logo.png"
+
 
 
 function Navbar(){
     return(
         <nav>
-            <img src={logo} alt="airbnb-logo" />
+            <img src= "../images/airbnb-logo.png" alt="airbnb-logo" />
         </nav>
     )
 }
