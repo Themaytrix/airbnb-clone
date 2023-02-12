@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar.js';
+import Hero from './components/Hero.js';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Hero />
     </div>
   );
 }
